@@ -1,0 +1,75 @@
+https://bugs.openjdk.java.net/browse/JDK-8046170
+
+https://visualgo.net/en Visual Algorithms
+
+http://tutorials.jenkov.com/java-util-concurrent/java-fork-and-join-forkjoinpool.html
+
+http://www.javamadesoeasy.com/2015/05/collection-top-50-interview-questions.html
+
+https://dzone.com/articles/hashmap-internal
+
+http://mishadoff.com/blog/java-magic-part-4-sun-dot-misc-dot-unsafe/
+
+https://nofluffjuststuff.com/magazine/2016/09/time_to_really_learn_generics_a_java_8_perspective
+
+http://howtodoinjava.com/core-java/generics/java-generics-what-is-pecs-producer-extends-consumer-super/
+
+https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java
+
+http://www.javamadesoeasy.com/2015/03/reentrantlocks-in-java.html
+
+http://www.javamadesoeasy.com/2015/03/thread-concurrency-top-50-interview.html
+
+http://www.javamadesoeasy.com/2015/04/concurrenthashmap-in-java.html
+
+http://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html#NonInterference
+
+http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
+
+https://www.ibm.com/developerworks/java/library/j-java-streams-1-brian-goetz/index.html
+(1 to 5 parts are available)
+
+
+https://developer.ibm.com/author/venkats/
+
+http://www.oracle.com/technetwork/articles/java/ma14-java-se-8-streams-2177646.html
+
+https://dzone.com/articles/threads-top-80-interview
+
+http://www.javamadesoeasy.com/2015/03/reentrantlock-class-provides.html
+http://www.javamadesoeasy.com/2015/03/difference-between-synchronized-and.html
+
+www.angelikalanger.com/GenericsFAQ/JavaGenericsFAQ.html
+
+
+
+# When called from synchronized block :when wait() method is called thread leaves the object lock.  But sleep()method when called from synchronized block or method thread doesn’t leaves object lock.
+
+# synchronization blocks or methods can cover only one method whereas we can acquire the lock in one method and release it in another method with Lock API.
+
+# We can create different conditions for Lock(I) and different thread can await() for different conditions.
+
+can we apply synchronised keyword to constructor? 
+How to get class level lock by using Lock Interface?
+How to get object level lock on perticular object by using Lock Interface?
+Difference between traditional multithreading and parallel programming?
+	MultiThreading primarily was designed to work with single CPU and utilize idle time of CPU. If two or more processors are there 	multithreading won’t be able to utilize multi processors but parallel programing using Fork/Join framework can utilize multiple 	processors available in computer.
+
+
+
+# Collections.sort internally calls Arrays.sort,
+	Arrays.Sort() internally calls Merge Sort(Algorithm).
+	If number of elements is less than 7 then Insertion Sort is used rather than Merge Sort. (because in case elements are less than 7 it 		offers better time complexity) 
+
+# Always override hashcode when you override equals: Effective Java 
+
+System.arrayCopy() Vs Arrays.copyOf()
+
+Object.hashCode() Vs System.identityHashCode();
+
+Comparatro.equals() ?
+
+String.intern() ?
+
+List<?> Vs List<Object>
+PECS: super is a lower bound, and extends is an upper bound.
