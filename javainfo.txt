@@ -29,6 +29,7 @@ http://winterbe.com/posts/2014/07/31/java8-stream-tutorial-examples/
 https://www.ibm.com/developerworks/java/library/j-java-streams-1-brian-goetz/index.html
 (1 to 5 parts are available)
 
+https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0
 
 https://developer.ibm.com/author/venkats/
 
